@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: raleway-light;
+    src: url(Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: raleway-medium;
+    src: url(Raleway-Medium.ttf);
+}
+
+h1 {
+    font-family: raleway-medium;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-family: raleway-medium;
+    margin-bottom: 20px;
+}
+
+#titulo {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 2em;
+}
+
+#descripcion {
+    background-color: black;
+}
+
+#foto2 img {
+    width: 399px;
+    height: 237px;
+    float: right;
+    padding-right: 110px;
+    background-color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#parrafo {
+    padding-top: 140px;
+    padding-left:110px;
+    width: 45%;
+    float: left;
+}
+
+p, li {
+    font-family: raleway-light;
+}
+
+#caracteristicas {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1E1A13;
+    overflow: auto;
+    text-align: center;
+}
+
+#caracteristicas ul div{
+    display:inline-block;
+    /* margin: 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#caracteristicas ul div li{
+    margin: 30px;    
+}
+
+#caracteristicas ul div i {
+    font-size: 50px;
+}
+
+body ul {
+    list-style-type: none;
+    text-decoration: none;
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+#iguanas {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /* overflow: hidden; */
+}
+
+.cajas {
+    width: 320px;
+    height: 250px;
+    display:inline-block;
+    padding-left: 70px;
+}
+
+/* #iguanas img {
+    width: 320px;
+    height: 240;
+     float: left;
+    padding-right: 0px;
+    padding-left: 80px;
+     overflow: hidden;
+} */
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    } */
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #1E1A13;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
